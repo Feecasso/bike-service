@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bike.io - Bike Repair Services</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="logo">
+          <h1 class="logo__title">Bike.io</h1>
+        </div>
+        <ul class="nav__links">
+          <li><a class="nav__link" href="#service">Services</a></li>
+          <li><a class="nav__link"href="#about">About Us</a></li>
+          <li><a class="nav__link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page">
+      <Hero class="hero">
+        <h2>Your Trusted Bike Repair Experts</h2>
+        <p class="hero__description">
+          Quick, reliable, and affordable bike repair services at your
+          fingertips.
+        </p>
+      </section>
+
+      <section class="services">
+        <h2 class="service__title">Our Services</h2>
+        <div class="service__list">
+          <div class="service">
+            <h3>Tune-Ups</h3>
+            <p>Comprehensive bike maintenance for a smoother ride.</p>
+          </div>
+          <div class="service">
+            <h3>Flat Tire Fixes</h3>
+            <p>Quick repair or replacement to get you back on the road.</p>
+          </div>
+          <div class="service">
+            <h3>Brake Adjustments</h3>
+            <p>Ensure safety with properly functioning brakes.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <h2>About Us</h2>
+        <p>
+          At Bike.io, we are passionate about keeping your rides smooth and
+          hassle-free. Our team of skilled technicians provides expert bike
+          repair services with a commitment to quality and customer
+          satisfaction.
+        </p>
+      </section>
+
+      <section class="contact">
+        <h2>Contact Us</h2>
+        <form  class="contact__form" action="/submit" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button class="contact__button"  type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+    <div class="social__links">
+      <a class="social__link" href="#">Facebook</a>
+      <a class="social__link" href="#">Instagram</a>
+      <a class="social__link" href="#">Twitter</a>
+    </div>
+
+  <footer class="footer">
+      <p class="footer_sig">&copy; 2024 Bike.io. All rights reserved.</p>
+  </footer>
+  </body>
+</html>
